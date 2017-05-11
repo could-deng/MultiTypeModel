@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Text size  google advice-->
+    <dimen name="text_size_large">22dp</dimen>
+    <dimen name="text_size_big">20dp</dimen>
+    <dimen name="text_size_normal">18dp</dimen>
+    <dimen name="text_size_middle">16dp</dimen>
+    <dimen name="text_size_small">14dp</dimen>
+    <dimen name="text_size_tiny">12dp</dimen>
+
+</resources>

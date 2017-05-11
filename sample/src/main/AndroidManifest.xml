@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.sdk.dyq.multitypemodel">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/normal_app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <activity android:name="com.sdk.dyq.sample.dyq_test.RecyclerGridActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:name="com.sdk.dyq.sample.dyq_test.RecyclerViewActivity">
+
+        </activity>
+
+        <activity
+            android:name="com.sdk.dyq.sample.bilibili.BilibiliActivity">
+
+        </activity>
+
+        <activity android:name="com.sdk.dyq.sample.multi_select.MultiSelectActivity"/>
+
+        <activity android:name="com.sdk.dyq.sample.normal.NormalActivity"/>
+
+        <activity android:name="com.sdk.dyq.sample.weibo.WeiboActivity"/>
+
+        <activity android:name="com.sdk.dyq.sample.communicate_with_binder.SimpleActivity"/>
+
+        <activity android:name="com.sdk.dyq.sample.one2many.OneDataToManyActivity"/>
+
+        <activity android:name="com.sdk.dyq.sample.payload.TestPayloadActivity"/>
+
+    </application>
+
+</manifest>
